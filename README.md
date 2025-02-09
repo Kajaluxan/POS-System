@@ -35,11 +35,31 @@ This is a Java-based Point of Sale (POS) system for a grocery store. The program
     - Enter 'r' to retrieve a previously saved pending bill.
     - Enter 'e' to finalize and print the bill.
 ## Example Input
-  ```bash
-  Enter Cashier Name: Kaja
-  Enter Branch: Jaffna
-  Enter Customer Name: Sara
-  Enter Item Code and No of Items Customer Buys: 10 2
-  Enter Item Code and No of Items Customer Buys: 12 1
-  Enter Item Code and No of Items Customer Buys: e
+     Enter Cashier Name: Kaja
+     Enter Branch: Jaffna
+     Enter Customer Name: Sara
+     Enter Item Code and No of Items Customer Buys: 10 2
+     Enter Item Code and No of Items Customer Buys: 12 1
+     Enter Item Code and No of Items Customer Buys: e
+## Example Output
+      **************************************************************************************
+                                      YOUR SHOPPING BILL                         
+      **************************************************************************************
+      Cashier Name: Kaja
+      Branch: Jaffna
+      Customer Name: Sara
+      Date: 2025-02-09
+      Time: 15:30:25
+      **************************************************************************************
+      Item Name                Unit Cost       Discount        Net Price       Quantity    
+      --------------------------------------------------------------------------------------
+      Milo                     150.00         5.0%           142.50          2           
+      Rice                     250.00         2.0%           245.00          1           
+      --------------------------------------------------------------------------------------
+      Total Discount:                                        12.50   
+      Total Cost:                                            387.50   
+      **************************************************************************************
+                                    THANK YOU FOR SHOPPING WITH US!                 
+      **************************************************************************************
+
 
